@@ -1,0 +1,80 @@
+{
+  "name": "dsh-ui-mobile",
+  "description": "DSH Pocket UI: mobile layout, touch drawers, and tap-to-focus chat input",
+  "version": "0.1.9",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "packageManager": "pnpm@11.22.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./invariant": {
+      "types": "./lib/invariant.d.ts",
+      "default": "./lib/invariant.js"
+    },
+    "./client": {
+      "types": "./client.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./src/*": "./src/*",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-cordis",
+        "@deepseek-ai/dsh-client-ui-layout"
+      ],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.0",
+    "@deepseek-ai/dsh-client-ui-conversation": "0.2.1-rc.5 || 0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-layout": "0.2.1-rc.5 || 0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-theme": "0.2.1-rc.5 || 0.2.2-rc.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@deepseek-ai/dsh-client-ui-cordis": "0.2.1-rc.5 || 0.2.2-rc.1"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/invariant.js",
+    "lib/client.js",
+    "lib/index.d.ts",
+    "lib/invariant.d.ts",
+    "client.d.ts",
+    "cordis.patch.yml",
+    "assets"
+  ],
+  "engines": {
+    "dsh": "0.2.1-rc.5 || 0.2.2-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timecatbit/dsh-pocket-ui.git"
+  },
+  "homepage": "https://github.com/timecatbit/dsh-pocket-ui#readme",
+  "bugs": {
+    "url": "https://github.com/timecatbit/dsh-pocket-ui/issues"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "mobile"
+  ]
+}
