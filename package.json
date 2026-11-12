@@ -1,7 +1,7 @@
 {
   "name": "dsh-ui-mobile",
   "description": "DSH Pocket UI: mobile layout, touch drawers, and tap-to-focus chat input",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "publishConfig": {
     "access": "public"
   },
@@ -44,12 +44,12 @@
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.0",
-    "@deepseek-ai/dsh-client-ui-conversation": "0.2.1-rc.5 || 0.2.2-rc.1",
-    "@deepseek-ai/dsh-client-ui-layout": "0.2.1-rc.5 || 0.2.2-rc.1",
-    "@deepseek-ai/dsh-client-ui-theme": "0.2.1-rc.5 || 0.2.2-rc.1",
+    "@deepseek-ai/dsh-client-ui-conversation": ">=0.2.1-rc.5",
+    "@deepseek-ai/dsh-client-ui-layout": ">=0.2.1-rc.5",
+    "@deepseek-ai/dsh-client-ui-theme": ">=0.2.1-rc.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@deepseek-ai/dsh-client-ui-cordis": "0.2.1-rc.5 || 0.2.2-rc.1"
+    "@deepseek-ai/dsh-client-ui-cordis": ">=0.2.1-rc.5"
   },
   "files": [
     "lib/index.js",
@@ -62,7 +62,7 @@
     "assets"
   ],
   "engines": {
-    "dsh": "0.2.1-rc.5 || 0.2.2-rc.1"
+    "dsh": ">=0.2.1-rc.5"
   },
   "repository": {
     "type": "git",
