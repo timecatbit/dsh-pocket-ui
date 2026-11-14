@@ -1,7 +1,7 @@
 {
   "name": "dsh-ui-mobile",
   "description": "DSH Pocket UI: mobile layout, touch drawers, tap-to-focus chat input, and a home-screen icon choice",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "publishConfig": {
     "access": "public"
   },
