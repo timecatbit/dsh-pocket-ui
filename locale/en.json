@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "DSH Pocket UI",
-    "description": "Phone layout for DSH: touch drawers, tap-to-focus chat input, and a home-screen icon choice in Settings → General."
+    "description": "Phone layout for DSH: touch drawers and tap-to-focus chat input, with its own settings page for the home-screen icon."
   }
 }
