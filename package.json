@@ -1,7 +1,7 @@
 {
   "name": "dsh-ui-mobile",
-  "description": "DSH Pocket UI: mobile layout, touch drawers, and tap-to-focus chat input",
-  "version": "0.1.20",
+  "description": "DSH Pocket UI: mobile layout, touch drawers, tap-to-focus chat input, and a home-screen icon choice",
+  "version": "0.1.21",
   "publishConfig": {
     "access": "public"
   },
@@ -24,7 +24,8 @@
     },
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./src/*": "./src/*",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*": "./locale/*"
   },
   "dsh": {
     "bundle": {
@@ -33,7 +34,9 @@
     "client": {
       "inject": [
         "@deepseek-ai/dsh-client-ui-cordis",
-        "@deepseek-ai/dsh-client-ui-layout"
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-locale"
       ],
       "platform": "web"
     }
