@@ -1,7 +1,7 @@
 {
-  "name": "dsh-ui-mobile",
+  "name": "@timecatbit/dsh-pocket-ui",
   "description": "DSH Pocket UI: mobile layout, touch drawers, tap-to-focus chat input, and a home-screen icon choice",
-  "version": "0.1.26",
+  "version": "0.2.0",
   "publishConfig": {
     "access": "public"
   },
@@ -69,6 +69,7 @@
   "engines": {
     "dsh": ">=0.2.1-rc.5"
   },
+  "author": "timecatbit",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timecatbit/dsh-pocket-ui.git"

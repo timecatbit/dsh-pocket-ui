@@ -1,3 +1,3 @@
 - insert:
-    - id: dsh-ui-mobile
-      name: dsh-ui-mobile
+    - id: dsh-pocket-ui
+      name: "@timecatbit/dsh-pocket-ui"

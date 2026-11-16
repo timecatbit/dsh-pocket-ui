@@ -1,5 +1,5 @@
 /**
- * Type declarations for the `dsh-ui-mobile/client` entry (the browser bundle,
+ * Type declarations for the `@timecatbit/dsh-pocket-ui/client` entry (the browser bundle,
  * lib/client.js). Hand-written so the standalone package stays self-contained:
  * the monorepo version generates these from tsc, but here the @deepseek-ai
  * peers may be unavailable at build time. Keep in sync with
