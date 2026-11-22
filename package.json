@@ -1,7 +1,7 @@
 {
   "name": "@timecatbit/dsh-pocket-ui",
   "description": "DSH Pocket UI: mobile layout, touch drawers, tap-to-focus chat input, and a home-screen icon choice",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publishConfig": {
     "access": "public"
   },
@@ -64,7 +64,9 @@
     "cordis.patch.yml",
     "assets",
     "locale",
-    "THIRD-PARTY-NOTICES.md"
+    "THIRD-PARTY-NOTICES.md",
+    "CHANGELOG.md",
+    "CHANGELOG.en.md"
   ],
   "engines": {
     "dsh": ">=0.2.1-rc.5"
